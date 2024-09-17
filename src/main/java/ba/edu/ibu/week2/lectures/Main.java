@@ -1,4 +1,4 @@
-package week2.lectures;
+package ba.edu.ibu.week2.lectures;
 
 public class Main {
     public static void main(String[] args) {

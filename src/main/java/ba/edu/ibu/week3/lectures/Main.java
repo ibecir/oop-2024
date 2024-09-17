@@ -1,4 +1,4 @@
-package week3.lectures;
+package ba.edu.ibu.week3.lectures;
 
 import java.util.ArrayList;
 import java.util.Collections;

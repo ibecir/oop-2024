@@ -1,6 +1,6 @@
-package week3.lectures.models;
+package ba.edu.ibu.week3.lectures.models;
 
-import week3.lectures.enums.Gender;
+import ba.edu.ibu.week3.lectures.enums.Gender;
 
 public class User {
     private String name;

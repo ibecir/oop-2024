@@ -1,7 +1,7 @@
-package week3.lectures.streams;
+package ba.edu.ibu.week3.lectures.streams;
 
-import week3.lectures.enums.Gender;
-import week3.lectures.models.User;
+import ba.edu.ibu.week3.lectures.enums.Gender;
+import ba.edu.ibu.week3.lectures.models.User;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;

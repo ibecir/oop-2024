@@ -1,4 +1,4 @@
-package week3.lectures.enums;
+package ba.edu.ibu.week3.lectures.enums;
 
 class Enums {
     public static void main(String[] args) {
