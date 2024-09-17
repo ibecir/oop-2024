@@ -56,7 +56,7 @@ By the end of this course, students will be able to:
    **Office Location:** B, 413
 
 2. **Name:** TA Amila Čaušević  
-   **Email:** amila.causevic@ibu.edu.ba 
+   **Email:** amila.causevic@ibu.edu.ba  
    **Office Location:** B, 411
 
 3. **Name:** TA Benjamin Peljto  
