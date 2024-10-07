@@ -26,22 +26,23 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        printHalfPyramidShapeOfNRows(5);
-
-        Scanner reader = new Scanner(System.in);
-
-        System.out.println("Please enter first number: ");
-        int becirAgaIshakovic = reader.nextInt();
-
-        System.out.println("Please enter second number: ");
-        int end = reader.nextInt();
-
-        Main objInstance = new Main();
-
-        objInstance.printNumbersInRange(becirAgaIshakovic, end);
-
-        String whatIsMyName = sayMyName("Becir");
-        System.out.println(whatIsMyName);
+        methodA();
+//        printHalfPyramidShapeOfNRows(5);
+//
+//        Scanner reader = new Scanner(System.in);
+//
+//        System.out.println("Please enter first number: ");
+//        int becirAgaIshakovic = reader.nextInt();
+//
+//        System.out.println("Please enter second number: ");
+//        int end = reader.nextInt();
+//
+//        Main objInstance = new Main();
+//
+//        objInstance.printNumbersInRange(becirAgaIshakovic, end);
+//
+//        String whatIsMyName = sayMyName("Becir");
+//        System.out.println(whatIsMyName);
     }
 
     public void printNumbersInRange(int start, int end) {
@@ -50,5 +51,14 @@ public class Main {
             i++;
         }
         sayMyName("Becir");
+    }
+
+    public static void methodA(){
+        System.out.println("smth");
+        methodB();
+    }
+    public static void methodB(){
+        System.out.println("smth 2");
+        methodA();
     }
 }

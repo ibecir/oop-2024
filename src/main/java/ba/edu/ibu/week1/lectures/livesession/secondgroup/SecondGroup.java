@@ -1,4 +1,4 @@
-package ba.edu.ibu.week1.lectures.secondgroup;
+package ba.edu.ibu.week1.lectures.livesession.secondgroup;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class SecondGroup {
             if(command.equals("sum") || command.equals("multiply")){
                 System.out.println("Please enter first number: ");
                 int firstNumber = Integer.parseInt(scanner.nextLine());
-
+                sayNesto();
                 System.out.println("Please enter second number: ");
                 int secondNumber = Integer.parseInt(scanner.nextLine());
 
@@ -29,5 +29,8 @@ public class SecondGroup {
             } else
                 System.out.println("Invalid command `" + command + "`");
         }
+    }
+    public static void sayNesto() {
+        System.out.println("Nesto");
     }
 }
