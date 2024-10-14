@@ -11,7 +11,7 @@ public class Introduction {
 
     public static void argsTest(String[] args) {
         for (int i = 0; i < args.length; i++)
-            System.out.println("Argument passed ar position " + i + " is: " + args[i]);
+            System.out.println(args[i]);
     }
 
     public static void simpleCalculator() {
