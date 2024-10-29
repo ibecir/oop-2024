@@ -1,11 +1,11 @@
 package ba.edu.ibu.week4.lectures.inheritance;
 
-public class Vehicle {
+class Vehicle {
     private double speed;
     private int numOfWheels;
 
-    public Vehicle(double speed, int numOfWheels){
-        this.speed = speed;
+    public Vehicle(double s, int numOfWheels){
+        this.speed = s;
         this.numOfWheels = numOfWheels;
     }
 
@@ -28,4 +28,14 @@ public class Vehicle {
     public void produceNoise(){
         System.out.println("GENERIC VEHICLE NOISE");
     }
+}
+
+class Test{
+    public static void main(String[] args) {
+        System.out.println("hello");
+    }
+    public Test(String name, int age){}
+}
+enum Gender{
+    FEMALE, MALE
 }
