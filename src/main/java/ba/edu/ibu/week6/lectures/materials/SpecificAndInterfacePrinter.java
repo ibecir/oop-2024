@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 // Bounded generic on the interfaces and classes
 // As many of these as you want although only one class and class should come first
-public class SpecificAndInterfacePrinter<T extends Animal & Serializable> {
+public class SpecificAndInterfacePrinter<T extends Animal & Serializable & Comparable> {
     private T thingToPrint; // Totally unaware what T will become
 
     // Generic type, anything we want

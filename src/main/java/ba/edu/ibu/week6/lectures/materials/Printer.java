@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 // The T is the type that this class may hold and use
-class Printer<T,K> {
+class Printer<T, K> {
     private T thingToPrint; // Totally unaware what T will become
     private K anotherThing;
+
     // Generic type, anything we want
     public Printer(T thingToPrint) {
         this.thingToPrint = thingToPrint;
@@ -73,29 +74,29 @@ class Starter {
     }
 
     // We can also have the generic methods
-    public static <T> void shout(T thingToSayLoud){
+    public static <T> void shout(T thingToSayLoud) {
         System.out.println(thingToSayLoud + "!!");
     }
 
-    public static <T, K> void shout(T thingToSayLoud, K oneMoreThingToSayLoud){
+    public static <T, K> void shout(T thingToSayLoud, K oneMoreThingToSayLoud) {
         System.out.println(thingToSayLoud + " " + oneMoreThingToSayLoud + "!!");
     }
 
-    public static <T, K> T returnFirstGeneric(T thingToReturn, K thingToPrint){
+    public static <T, K> T returnFirstGeneric(T thingToReturn, K thingToPrint) {
         System.out.println(thingToPrint + "????????");
         return thingToReturn;
     }
 
     // Java wildcard generics, accepts the list of any type and prints its values
-    public static void printListWrongWay(List<Object> objects){
+    public static void printListWrongWay(List<Object> objects) {
         System.out.println(objects);
     }
 
-    public static void printList(List<?> objects){
+    public static void printList(List<?> objects) {
         System.out.println(objects);
     }
 
-    public static void printListSpecific(List<? extends Animal> objects){
+    public static void printListSpecific(List<? extends Animal> objects) {
         System.out.println(objects);
     }
 }
