@@ -9,7 +9,7 @@ record Wolf(String name, int age) { }
 class StartMe {
     public static void main(String[] args) throws ClassNotFoundException {
         Wolf wolf = getWolfByName("Strasni");
-        System.out.println(wolf.age()); // Return an exception, common situation
+        //System.out.println(wolf.age()); // Return an exception, common situation
 
         if(wolf != null)
             System.out.println(wolf.age());
@@ -27,9 +27,6 @@ class StartMe {
         System.out.println(wolfOptional.orElseGet(() -> null));
 
         wolfOptional.orElseThrow(ClassNotFoundException::new);
-
-        wolfOptional.map(Wolf::age)
-                .orElse(0);
     }
 
     public static Wolf getWolfByName(String name){

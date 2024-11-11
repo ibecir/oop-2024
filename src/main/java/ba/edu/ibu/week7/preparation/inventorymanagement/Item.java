@@ -37,12 +37,12 @@ abstract class Item implements Sellable {
 
     @Override
     public double calculateDiscount(double discountRate) {
-        return price * (1 - discountRate);
+        return price * discountRate / 100;
     }
 
     @Override
     public String getDescription() {
-        return String.format("Item: %s, Price: %.2f", name, price);
+        return String.format("Item: " + name + ", Price: " + price);
     }
 }
 
@@ -64,7 +64,7 @@ class Milk extends Item {
 
     @Override
     public String getDescription() {
-        return super.getDescription() + String.format(", Fat: %.1f%%", fat);
+        return super.getDescription() + ", Fat: " + fat;
     }
 }
 
