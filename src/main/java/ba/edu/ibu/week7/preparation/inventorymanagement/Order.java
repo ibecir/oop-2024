@@ -34,7 +34,22 @@ class Order<T extends Item & Sellable> {
     }
 
     public void addItem(T item, int quantity) {
-        items.put(item, items.getOrDefault(item, 0) + quantity);
+        boolean itemExists = false;
+
+        // Check if an item with the same barcode already exists in the map
+        for (T existingItem : items.keySet()) {
+            if (existingItem.getBarcode().equals(item.getBarcode())) {
+                // Item exists, update the quantity
+                items.put(existingItem, items.get(existingItem) + quantity);
+                itemExists = true;
+                break;
+            }
+        }
+
+        // If the item does not exist, add it to the map
+        if (!itemExists) {
+            items.put(item, quantity);
+        }
     }
 
     public double calculateTotalAmount() {

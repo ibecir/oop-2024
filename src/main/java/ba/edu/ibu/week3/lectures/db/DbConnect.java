@@ -2,7 +2,7 @@ package ba.edu.ibu.week3.lectures.db;
 
 import java.sql.*;
 
-public class DbConnect {
+public final class DbConnect {
     private static final String CONNECTION_STRING = "jdbc:mysql://db1.ibu.edu.ba:3306/sepfin_db";
     private static final String USERNAME = "sepfin_usr";
     private static final String PASSWORD = "fin42sepUSR";

@@ -11,6 +11,10 @@ public class MainRun {
         Honey honey1 = new Honey("003", "Pure Honey", 15.0, HoneyType.BAGREMOV);
         Honey honey2 = new Honey("004", "Wild Honey", 18.0, HoneyType.LIVADSKI);
 
+        Order<Item> myItems = new Order<>("Moja narudzba", new Date());
+        myItems.addItem(milk1, 2);
+        myItems.addItem(honey1, 2);
+
         // Create orders for milk and honey
         Order<Milk> milkOrder = new Order<>("Order1", new Date());
         milkOrder.addItem(milk1, 3);
