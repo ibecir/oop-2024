@@ -1,5 +1,8 @@
-package org.example;
+package ba.edu.ibu.week7.preparation.reataurantmanagementsystem;
 
+import ba.edu.ibu.week7.preparation.reataurantmanagementsystem.TableReservation;
+
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
