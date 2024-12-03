@@ -1,5 +1,7 @@
 package ba.edu.ibu.week7.preparation.reataurantmanagementsystem;
 
+import ba.edu.ibu.week7.preparation.restaurantmanagementsystem.Billable;
+
 abstract class MenuItem implements Billable {
     protected String code;
     protected String name;
