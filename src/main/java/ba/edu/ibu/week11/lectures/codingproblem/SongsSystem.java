@@ -21,7 +21,7 @@ class SongsSystem {
     }
 
     public static void main(String[] args) throws IOException {
-        SongsSystem system = new SongsSystem("songs.csv");
+        SongsSystem system = new SongsSystem("/Users/becir/Documents/Academic Materials/IBU/2024-2025/FALL/Object Oriented Programming/Projects/oop-2024/src/main/java/ba/edu/ibu/week11/lectures/codingproblem/songs.csv");
 
         for (Song song : system.songs) {
             System.out.println(String.valueOf(song.id()) + song.trackName());
