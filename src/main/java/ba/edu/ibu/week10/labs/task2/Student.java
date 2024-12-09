@@ -1,4 +1,4 @@
-package ba.edu.ibu.week10.task2;
+package ba.edu.ibu.week10.labs.task2;
 
 
 import java.util.Arrays;

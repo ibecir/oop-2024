@@ -1,4 +1,4 @@
-package ba.edu.ibu.week10.task1.classes;
+package ba.edu.ibu.week10.labs.task1.classes;
 
 public abstract class User {
     protected String username;

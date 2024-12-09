@@ -1,4 +1,4 @@
-package ba.edu.ibu.week10.task3;
+package ba.edu.ibu.week10.labs.task3;
 
 import java.io.*;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package ba.edu.ibu.week10.task1.Annotations;
+package ba.edu.ibu.week10.labs.task1.Annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

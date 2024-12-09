@@ -1,4 +1,4 @@
-package ba.edu.ibu.week10.task4;
+package ba.edu.ibu.week10.labs.task4;
 
 public class Song {
     private String title;

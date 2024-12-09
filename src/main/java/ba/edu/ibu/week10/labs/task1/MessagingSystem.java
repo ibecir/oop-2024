@@ -1,11 +1,11 @@
-package ba.edu.ibu.week10.task1;
+package ba.edu.ibu.week10.labs.task1;
 
-import ba.edu.ibu.week10.task1.Annotations.CanSendMessage;
-import ba.edu.ibu.week10.task1.Annotations.RequiresPermission;
-import ba.edu.ibu.week10.task1.Annotations.UserPermission;
-import ba.edu.ibu.week10.task1.classes.AdminUser;
-import ba.edu.ibu.week10.task1.classes.RegularUser;
-import ba.edu.ibu.week10.task1.classes.User;
+import ba.edu.ibu.week10.labs.task1.Annotations.CanSendMessage;
+import ba.edu.ibu.week10.labs.task1.Annotations.RequiresPermission;
+import ba.edu.ibu.week10.labs.task1.Annotations.UserPermission;
+import ba.edu.ibu.week10.labs.task1.classes.AdminUser;
+import ba.edu.ibu.week10.labs.task1.classes.RegularUser;
+import ba.edu.ibu.week10.labs.task1.classes.User;
 
 import java.lang.reflect.Method;
 
