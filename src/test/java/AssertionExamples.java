@@ -73,7 +73,7 @@ public class AssertionExamples {
         assertAll(
                 "heading",
                 () -> assertEquals(4, 2 * 2, "4 is 2 times 2"),
-                () -> assertEquals("java", "JAVA".toLowerCase()),
+                () -> assertEquals("s", "JAVA".toLowerCase()),
                 () -> assertNull(obj, "obj is null")
         );
     }
