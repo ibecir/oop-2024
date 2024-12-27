@@ -33,7 +33,7 @@ class Socket {
 class SocketClassAdapterImpl extends Socket implements SocketAdapter {
     // Does not have to extend Socket class, it can also use the Java composition
     // Using Composition for adapter pattern
-    // private Socket sock = new Socket();
+//     private Socket sock = new Socket();
     @Override
     public Volt get120Volt() {
         // Or with Java composition
