@@ -43,6 +43,7 @@ class Main {
         printPrintables(catPrintable);
 
         Operation add = (x, y) -> x + y;
+
         Operation multiply = (x, y) -> x * y;
 
         printOperation(1,2, add);
