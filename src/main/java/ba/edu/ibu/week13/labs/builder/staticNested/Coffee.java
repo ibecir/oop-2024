@@ -1,4 +1,4 @@
-package ba.edu.ibu.week13.labs.builder;
+package ba.edu.ibu.week13.labs.builder.staticNested;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ class Coffee {
         this.toppings = builder.toppings;
     }
 
-    public static class CoffeeBuilder implements ba.edu.ibu.week13.labs.builder.CoffeeBuilder {
+    public static class CoffeeBuilder implements ba.edu.ibu.week13.labs.builder.staticNested.CoffeeBuilder {
         private CoffeeType type;
         private CoffeeSize size;
         private List<CoffeeToppings> toppings = new ArrayList<>();

@@ -1,4 +1,4 @@
-package ba.edu.ibu.week13.labs.builder;
+package ba.edu.ibu.week13.labs.builder.staticNested;
 
 public class Main {
     public static void main(String[] args) {
