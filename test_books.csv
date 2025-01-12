@@ -1,0 +1,4 @@
+isbn,title,author,publicationDate,category,price,availability
+ISBN-001,Effective Java,Joshua Bloch,2018-05-08,SCIENCE,50.00,AVAILABLE
+ISBN-002,The Pragmatic Programmer,Andrew Hunt,1999-10-30,TECHNOLOGY,45.00,CHECKED_OUT
+ISBN-003,To Kill a Mockingbird,Harper Lee,1960-07-11,FICTION,30.00,AVAILABLE

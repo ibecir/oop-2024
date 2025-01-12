@@ -1,0 +1,4 @@
+isbn,title,author,publicationDate,category,price,availability
+ISBN-005,Future Book,Jane Doe,2030-01-01,SCIENCE,30.00,AVAILABLE
+ISBN-007,Negative Price Book,John Smith,2020-05-20,ARTS,-15.00,CHECKED_OUT
+ISBN-008,Invalid Category Book,Emily Bronte,1850-12-01,MAGIC,40.00,AVAILABLE

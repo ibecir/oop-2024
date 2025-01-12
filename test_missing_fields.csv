@@ -1,0 +1,4 @@
+isbn,title,author,publicationDate,category,price,availability
+ISBN-004,,J.K. Rowling,1997-06-26,FICTION,25.00,AVAILABLE
+,Harry Potter and the Sorcerer's Stone,J.K. Rowling,1997-06-26,FICTION,25.00,AVAILABLE
+ISBN-006,1984,George Orwell,1949-06-08,FICTION,20.00,
