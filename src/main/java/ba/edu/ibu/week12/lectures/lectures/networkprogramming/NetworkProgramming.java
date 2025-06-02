@@ -14,8 +14,8 @@ public class NetworkProgramming {
 //         readPageData("https://klix.ba");
 //        readJson("https://api.jsonbin.io/v3/qs/6580223ddc7465401884b2ba");
         // postExample();
-//        socketServer(2345);
-        socketClient("192.168.0.100", 2345);
+        socketServer(2345);
+//        socketClient("192.168.0.100", 2345);
 //        readSimpleJson();
     }
 
@@ -96,6 +96,11 @@ public class NetworkProgramming {
                 int bytesRead = inputStream.read(buffer);
                 String message = new String(buffer, 0, bytesRead);
                 System.out.println("Received message from client: " + message);
+
+                OutputStream output = connection.getOutputStream();
+                PrintWriter writer = new PrintWriter(output, true); // auto-flush
+
+                writer.println("Hello, client!");
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
